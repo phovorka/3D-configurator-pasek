@@ -1,7 +1,5 @@
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      'model-viewer': any; // Or specify more specific types if known
-    }
+declare module JSX {
+  interface IntrinsicElements {
+    'model-viewer': any;
   }
 }
