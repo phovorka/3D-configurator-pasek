@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import '@google/model-viewer';
-import './App.css'; // Ujisti se, že máš vlastní styly v tomto souboru
+import './App.css'; 
+
 
 const WatchConfigurator: React.FC = () => {
   const modelRef = useRef<any>(null);
