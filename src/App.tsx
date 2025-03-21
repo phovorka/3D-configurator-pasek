@@ -43,7 +43,7 @@ const WatchConfigurator: React.FC = () => {
         src="https://cdn.jsdelivr.net/gh/phovorka/GLB/watch1.glb"
         camera-controls
         auto-rotate
-      ></model-viewer>
+      ></model-viewer> as any;
       <div className="color-picker">
         {['black', 'brown', 'blue', 'red'].map((color) => (
           <button
